@@ -1,8 +1,6 @@
 .descri{
-    display: flex;
-    flex: 49.9%;
-    padding: 5px;
-    box-sizing: border-box;
+    display: flex; margin-bottom: 4%; padding: 2%;
+    background: #b08968;
   }
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -17,7 +15,6 @@ button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight
 button,input{overflow:visible}button,select{text-transform:none}
 button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
 button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
-button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
 fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
 legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
 [type=checkbox],[type=radio]{padding:0}
@@ -131,8 +128,6 @@ hr{border:0;border-top:1px solid #eee;margin:40px 0}
 .ga-opacity,.ga-hover-opacity:hover{opacity:0.60}.ga-opacity-off,.ga-hover-opacity-off:hover{opacity:1}
 .ga-opacity-max{opacity:0.25}.ga-opacity-min{opacity:0.75}
 .ga-greyscale-max,.ga-grayscale-max,.ga-hover-greyscale:hover,.ga-hover-grayscale:hover{filter:grayscale(100%)}
-.ga-greyscale,.ga-grayscale{filter:grayscale(75%)}.ga-greyscale-min,.ga-grayscale-min{filter:grayscale(50%)}
-.ga-sepia{filter:sepia(75%)}.ga-sepia-max,.ga-hover-sepia:hover{filter:sepia(100%)}.ga-sepia-min{filter:sepia(50%)}
 .ga-tiny{font-size:10px!important}.ga-small{font-size:12px!important}.ga-medium{font-size:15px!important}.ga-large{font-size:18px!important}
 .ga-xlarge{font-size:24px!important}.ga-xxlarge{font-size:36px!important}.ga-xxxlarge{font-size:48px!important}.ga-jumbo{font-size:64px!important}
 .ga-left-align{text-align:left!important}.ga-right-align{text-align:right!important}.ga-justify{text-align:justify!important}.ga-center{text-align:center!important}
