@@ -1,72 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Guia de Aves de Lagarpampa y Mollepampa</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2 {font-family: "Raleway", Arial, sans-serif}
-h1,h2 {letter-spacing: 6px}
-.ga-row-padding img {margin-bottom: 8px}
-</style>
+  <title>Guia de Aves de Lagarpampa y Mollepampa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="stylecopy.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body,h1,h2,h3{font-family: "Raleway", Arial, sans-serif}
+    h1,h2,h3{letter-spacing: 6px}
+    .pic {max-width: 100%; max-height:30em; vertical-align:middle }
+    .letras {width: 49%;}
+    /* .caract{text-align: justify;   padding-bottom: 10px;} */
+    </style>
 </head>
 <body>
 
-<!-- !PAGE CONTENT! -->
-<div class="ga-content" style="max-width:1500px">
+  <!-- !PAGE CONTENT! -->
 
+<div class="ga-content container-fluid p-5">
+    
 <!-- Header -->
-<header class="ga-panel ga-center ga-opacity" style="padding:100px 16px 64px 16px">
-  <h1>Aves del ANMI Lagarpampa y Mollepampa</h1>
-  <h2 class="ga-xlarge">Guia de Campo</h2>
-  
-  <div class="ga-padding-32">
+  <header class="ga-center ga-opacity"
+    style="padding:2% 2% 1% 2%">
+    
+   <h1>Aves del ANMIM Lagarpampa y Mollepampa</h1>
+   <h2 class="ga-xlarge">Guia de Campo</h2>
+        
+   <div class="ga-padding-24">
     <div class="ga-bar ga-border">
-      <a href="#" class="ga-bar-item ga-button">Guia</a>
-      <a href="familia1.html" class="ga-bar-item ga-button ">Familias</a> <!-- ga-light-grey use for hover -->
+      <a href="index.html" class="ga-bar-item ga-button">Guia</a>
+      <a href="Tinamidae.html" class="ga-bar-item ga-button ">Familias</a> <!-- ga-light-grey use for hover -->
       <a href="#" class="ga-bar-item ga-button">Recorridos</a>
       <a href="#" class="ga-bar-item ga-button">Cómo llegar</a>
-
-      <!-- <a href="#" class="ga-bar-item ga-button ga-hide-small">Relatos</a> -->
+            <!-- <a href="#" class="ga-bar-item ga-button ga-hide-small">Relatos</a> -->
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<!-- Photo Grid -->
-<div class="ga-row-padding" style="margin-bottom:128px">
-  <div class="ga-half">
-    <img src="/gaimages/wedding.jpg" style="width:100%">
-    <div src="/gaimages/rocks.jpg" style="width:100%">
-    <img src="/gaimages/falls2.jpg" style="width:100%">
-    <img src="/gaimages/paris.jpg" style="width:100%">
-    <img src="/gaimages/nature.jpg" style="width:100%">
-    <img src="/gaimages/mist.jpg" style="width:100%">
-    <img src="/gaimages/paris.jpg" style="width:100%">
-  </div>
+<!-- Photo & Info Grid -->
 
-  <div class="ga-half">
-    <img src="/gaimages/underwater.jpg" style="width:100%">
-    <img src="/gaimages/ocean.jpg" style="width:100%">
-    <img src="/gaimages/wedding.jpg" style="width:100%">
-    <img src="/gaimages/mountainskies.jpg" style="width:100%">
-    <img src="/gaimages/rocks.jpg" style="width:100%">
-    <img src="/gaimages/underwater.jpg" style="width:100%">
-  </div>
-</div>
+  <div class="container">
   
+    <div class="row justify-content-md-center ga-row-padding ">
+
+      <div class="col-md-5 col-md-offset-2">
+        <img class="pic"
+          src="https://2.bp.blogspot.com/-SxBJVYbJep4/XArwMFOekKI/AAAAAAAAS7A/nvpeRibY_x07_1KLZEtudaDsIpjp_zCGwCLcBGAs/s1600/20181206_131049.jpg">
+        <figcaption> <a href="http://aiquilecologico.blogspot.com/"> Del blog "Aiquile Ecológico"</a></figcaption>
+        </div>
+    
+      <div class="col-md-3 letras ga-justify">
+        <!-- <h3>Column 2</h3> -->
+        <div class ="caract">
+          Esta área posibilita la conservación de ecosistemas típicos de los Valles
+          Secos Interandinos. Que es uno de los paisajes más amenazados de Bolivia. 
+          Aquí podemos encontrar especies únicas de Bolivia como ser: 
+          <i><ul style="list-style-type: none; padding-left: 4ch;" >
+            <li>Oreotrochilus adela </li>
+              <li>Myiopsitta luchsi</li>
+                <li>Ara rubrogenys </li>
+                  <li>Tarphonomus harterti </li>
+                    <li>Asthenes harterti </li>
+                      <li>Sicalis luteocephala </li>
+                        <li>Diglossa carbonaria </li>
+                          <li>Poospiza boliviana </li>
+                            <li>Oreopsar bolivianus</li></ul>  </i>
+        </div>
+      </div>
+    </div>
+ 
+  </div>
 <!-- End Page Content -->
 </div>
 
 <!-- Footer erase or add the socials fa-instagram example-->
 <footer class="ga-container ga-padding-64 ga-light-grey ga-center ga-large"> 
-  <i class="fa" > Contactos </i>
- 
-  <p>Es un proyecto de<a href="https://www.gaschools.com/gacss/default.asp" target="_blank" class="ga-hover-text-green">
-    CBG UMSS </a></p>
-</footer>
+    Contactos
+   
+    <p>Es un proyecto de<a href="#" target="_blank">
+      CBG UMSS </a></p>
+  </footer>
 
 </body>
 </html>
